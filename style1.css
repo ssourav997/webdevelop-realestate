@@ -1,0 +1,235 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+html{
+    scroll-behavior:smooth;   //to scroll smoothly 
+}
+
+.highway
+{
+    height:70px;
+    width:500%;
+    display: block;
+    background-image: url(road.jpg);
+    position: absolute;
+    bottom:480px;
+    left:0;
+    right:0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: highway 1s linear infinite;
+}
+@keyframes highway
+{
+    100%{
+    transform: translateX(-3400px);
+    }
+}
+.city
+{
+    height: 200px;
+    width: 500%;
+    background-image: url(city.png);
+    position: absolute;
+    bottom: 550px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+@keyframes city
+{
+    100%{
+    transform: translateX(-1400px);
+    }
+}
+.car
+{
+    width: 200px;
+    left: 20%;
+    bottom:530px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img
+{
+    width:100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car
+{
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.wheel
+{
+    left:20%;
+    bottom:575px;
+    transform: translate(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.wheel img
+{
+    width: 40px;
+    height: 40px;
+    animation: wheel 1s linear infinite;
+}
+.back-wheel
+{
+    left: -85px;
+    position: absolute;
+}
+.front-wheel
+{
+    left: 40px;
+    position: absolute;
+}
+@keyframes wheel
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.top-header{
+    background: #46bd55;
+    color:#fff;
+    padding:10px 0;
+    margin-top:1px;
+}
+.container{
+    width : 1170px;
+    margin: 0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.site-info{
+    float: left;
+}
+.site-contact{
+    float: right;
+}
+.middle-header{
+    background:#fff;
+    padding: 20px 0;
+    margin-top: 300px;
+}
+.site-name{
+    float: left;
+    font-size: 30px;
+}
+.site-name a{
+    text-decoration: none;
+    color: #333;
+}
+.site-name a span.home{
+    color: #46bd55;
+}
+.site-nav{
+    float: right;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.site-nav ul{
+    display: flex;
+}
+.site-nav ul li{
+    display: inline block;
+    list-style-type: none;
+}
+.site-nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+}
+.site-nav ul li.active a{
+    color: #46bd55;
+}
+.site-nav ul li a:hover{
+    color: #46bd55;
+}
+.test ul li {
+    display: inline-block;
+    margin: 200px;
+    margin-top:70px;
+}
+.text ul li a img{
+   display: block;
+}
+.nav{
+    width: 300px;
+    height: 250px;
+    border-radius:50%;
+    border:0px;   
+}
+.nav:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s transform;
+}
+.test ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.test ul li a figcaption:hover{
+    color: #46bd55;
+}
+footer
+{
+    border-top: 4px solid black;
+}
+.about-name a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+    color: #46bd55;
+}
+.about-name a span.home{
+    color: #333;
+}
+.astyle{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.box ul li {
+    display: block;
+    display: inline-block;
+    padding-top: 20px;
+
+}
+.pic{  
+    height:70px;
+    width:70px;
+    padding: 25px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+}
+

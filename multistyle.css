@@ -1,0 +1,151 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.highway
+{
+    height:50px;
+    width:500%;
+    display: block;
+    background-image: url(road.jpg);
+    position: absolute;
+    bottom:540px;
+    left:0;
+    right:0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: highway 1s linear infinite;
+}
+@keyframes highway
+{
+    100%{
+    transform: translateX(-3400px);
+    }
+}
+.city
+{
+    height: 200px;
+    width: 500%;
+    background-image: url(city.png);
+    position: absolute;
+    bottom: 589px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+@keyframes city
+{
+    100%{
+    transform: translateX(-1400px);
+    }
+}
+.car
+{
+    width: 200px;
+    left: 20%;
+    bottom:545px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img
+{
+    width:100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car
+{
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.wheel
+{
+    left:20%;
+    bottom:590px;
+    transform: translate(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.wheel img
+{
+    width: 40px;
+    height: 40px;
+    animation: wheel 1s linear infinite;
+}
+.back-wheel
+{
+    left: -85px;
+    position: absolute;
+}
+.front-wheel
+{
+    left: 40px;
+    position: absolute;
+}
+@keyframes wheel
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.middle-header{
+    background:#fff;
+    padding: 20px 0;
+}
+.site-name{
+    float: left;
+    font-size: 26px;
+}
+.site-name a{
+    text-decoration: none;
+    color: #333;
+}
+.site-name a span.home{
+    color: #46bd55;
+}
+.site-nav{
+    float: right;
+    font-family: times new roman;
+    font-size: 17px;
+    padding-top: 12px;
+}
+.site-nav ul{
+    display: flex;
+}
+.site-nav ul li{
+    display: inline block;
+    list-style-type: none;
+}
+.site-nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+}
+.site-nav ul li.active a{
+    color: #46bd55;
+}
+.site-nav ul li a:hover{
+    color: #46bd55;
+}
+.test ul li {
+    display: inline-block;
+    margin: 120px;
+    margin-top:250px;
+    padding-left: 80px;
+}

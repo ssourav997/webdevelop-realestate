@@ -1,0 +1,140 @@
+*{
+	 padding:0;
+	 margin:0;
+}
+.top-header{
+	background: #46bd55;
+	color:#fff;
+	padding:8px 0;
+}
+.container{
+	width : 1170px;
+	margin: 0 auto;
+}
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.site-info{
+	float: left;
+}
+.site-contact{
+	float: right;
+}
+.middle-header{
+	background:#fff;
+	padding: 20px 0;
+}
+.site-name{
+	float: left;
+	font-size: 26px;
+}
+.site-name a{
+	text-decoration: none;
+	color: #333;
+}
+.site-name a span.home{
+	color: #46bd55;
+}
+.site-nav{
+	float: right;
+	font-size: 17px;
+	padding-top: 12px;
+}
+.site-nav ul{
+	display: flex;
+}
+.site-nav ul li{
+	display: inline block;
+	list-style-type: none;
+}
+.site-nav ul li a{
+	display: block;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333;
+}
+.site-nav ul li.active a{
+	color: #46bd55;
+}
+.site-nav ul li a:hover{
+	color: #46bd55;
+}
+.test ul li {
+    display: inline-block;
+    margin: 120px;
+    margin-top:110px;
+    padding-left: 80px;
+}
+.text ul li a img{
+   display: block;
+
+}
+.nav{
+    width: 350px;
+    height: 300px;
+    border-radius:10%;
+    border:3px groove black;
+}
+.nav:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s transform;
+}
+
+.test ul li a {
+    display: block;
+    text-decoration: none;
+    font-size:25px;
+    padding:5px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.test ul li a figcaption:hover{
+    color: #46bd55;
+}
+footer
+{
+    border-top: 4px solid black;
+}
+.about-name a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+    color: #46bd55;
+}
+.about-name a span.home{
+    color: #333;
+}
+.astyle{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.box ul li {
+    display: block;
+    display: inline-block;
+    padding-top: 20px;
+
+}
+.pic{  
+    height:70px;
+    width:70px;
+    padding: 25px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+

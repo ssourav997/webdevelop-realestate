@@ -1,0 +1,25 @@
+.login_box{
+    max-width: 1000px;
+    float: none;
+    margin: 150px auto;
+}
+.login_left{
+    background: rgba(211,211,200,0.5);
+    padding: 30px;
+}
+.login_right{
+    background: #fff;
+    padding: 30px;
+}
+.form-control{
+    background-color: transparent !important;
+}
+a{
+    color: #fff !important;
+}
+h2{
+    color: #fff !important;
+    margin-top: 200px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
